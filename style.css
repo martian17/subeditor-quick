@@ -1,0 +1,34 @@
+body{
+    margin:0px;
+}
+
+.topsec{
+    display:flex;
+}
+
+.droparea, .download{
+    min-height:2.5em;
+    border-radius: 1em;
+    box-sizing:border-box;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.4em;
+}
+
+.droparea{
+    width:70%;
+    border:2px dashed #aaa;
+    color:#888;
+}
+
+.droparea:hover{
+    border:2px dashed #ccc;
+    color:#aaa;
+}
+
+.download{
+    width:30%;
+    border:2px solid #888;
+    color:#444;
+}
